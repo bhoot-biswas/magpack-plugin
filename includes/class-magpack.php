@@ -56,6 +56,7 @@ final class Magpack {
 	 * e.g. include_once MAGPACK_ABSPATH . 'includes/foo.php';
 	 */
 	private function includes() {
+		include_once MAGPACK_ABSPATH . 'post-types/magpack-story.php';
 	}
 
 	/**
