@@ -57,6 +57,9 @@ final class Magpack {
 	 */
 	private function includes() {
 		include_once MAGPACK_ABSPATH . 'post-types/magpack-story.php';
+		
+		include_once MAGPACK_ABSPATH . 'taxonomies/magpack-category.php';
+		include_once MAGPACK_ABSPATH . 'taxonomies/magpack-tag.php';
 	}
 
 	/**
